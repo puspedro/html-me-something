@@ -1,0 +1,117 @@
+/* html{
+    display: flex;
+    justify-content: center;
+} */
+
+
+body{
+    background-color: rgb(186, 221, 245);
+    font-size: 100%;
+    justify-content: center;
+}
+
+.mainbody{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header, 
+main, 
+footer{
+    font-size: 1.5rem;
+    text-align: justify;
+    background-color: rgb(255, 254, 218);
+    padding: 1rem;
+}
+
+main{
+    margin: 0;
+}
+
+header h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+nav ul{
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    /* text-align: center; */
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    margin-top: 0;
+    text-decoration: none;
+    border-radius: 0.5rem;
+ }
+
+ li{
+     background-color: rgb(215, 238, 245);
+     color: rgb(69, 5, 71);
+ }
+ li:hover{
+     background-color: rgb(0, 162, 255);
+ }
+ a{
+     text-decoration: none;
+     color: rgb(78, 2, 62);
+ }
+
+.fa{
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 0.75rem;
+    float: right
+}
+
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+    border-radius: 50%;
+}
+.fa-facebook:hover{
+    opacity: 0.7;
+}
+
+#list{
+    display: inline;
+    font-size: 1.2rem;
+}
+
+ul{
+    display: inline;
+}
+
+article{
+    font-family: "Abel", sans-serif;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    color: rgb(0, 183, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+    display: inline;
+}
+
+section{
+    margin: auto;
+}
+
+section:first-child{
+    margin-top: 0; 
+}
+select:last-child{
+    margin-bottom: 0;
+}
